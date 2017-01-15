@@ -1,0 +1,22 @@
+[
+  {
+    "outputFileName": "js/bundle.min.js",
+    "inputFiles": [
+      "js/jquery-1.11.3.min.js",
+      "js/jquery-migrate-1.2.1.min.js",
+      "js/plugins.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "outputFileName": "css/bundle.min.css",
+    "inputFiles": [
+      "css/base.css",
+      "css/main.css",
+      "css/fonts.css",
+      "css/ionicons/css/ionicons.min.css",
+      "css/micons/micons.css"
+    ],
+    "minify": { "enabled": true }
+  }
+]
