@@ -834,10 +834,23 @@ header .logo a {
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
+header .tagline {
+	display: block;
+	margin-top: 48px;
+	margin-left: 37px;
+	font-family: "raleway-thin";
+    font-weight: bold;
+    color: white;
+}
 .sticky {
 	position: fixed;
 	background: #14171c;
 	top: 0;
+}
+header.sticky .tagline {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
 }
 
 /**
