@@ -34,16 +34,6 @@
 html {
 	font-size: 10px;
 }
-@media only screen and (max-width:1024px) {
-	html {
-		font-size: 9.375px;
-	}
-}
-@media only screen and (max-width:768px) {
-	html {
-		font-size: 10px;
-	}
-}
 @media only screen and (max-width:400px) {
 	html {
 		font-size: 9.375px;
@@ -835,9 +825,9 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 header .tagline {
-	display: block;
-	margin-top: 48px;
-	margin-left: 37px;
+    position: absolute;
+    width: 100rem;
+    margin-top: 4px;
 	font-family: "raleway-thin";
     font-weight: bold;
     color: white;
@@ -1161,7 +1151,7 @@ a.menu-toggle {
 }
 .intro-content {
 	display: table-cell;
-    padding-top: 40px;
+    padding-top: 80px;
 	vertical-align: middle;
 	text-align: center;
 	-webkit-transform: translateY(-1.2rem);
@@ -1236,6 +1226,9 @@ a.menu-toggle {
 	#intro {
 		min-height: 660px;
 	}
+    .intro-content {
+        padding-top: 0;
+    }
 	.intro-content h1 {
     	font-size: 2.4rem;
 	}
@@ -1253,7 +1246,7 @@ a.menu-toggle {
 		margin-bottom: .9rem;
 	}
 	.intro-content h5 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	.intro-content a.button {
 		font-size: 1.4rem;
