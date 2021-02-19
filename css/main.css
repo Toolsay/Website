@@ -1150,9 +1150,9 @@ a.menu-toggle {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73000000', endColorstr='#00000000', GradientType=0);  /* IE6-9 */
 }
 .intro-content {
+	padding-top: 100px !important;
 	display: table-cell;
     padding-top: 80px;
-	vertical-align: middle;
 	text-align: center;
 	-webkit-transform: translateY(-1.2rem);
 	-ms-transform: translateY(-1.2rem);
