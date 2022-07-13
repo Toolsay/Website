@@ -1150,7 +1150,7 @@ a.menu-toggle {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73000000', endColorstr='#00000000', GradientType=0);  /* IE6-9 */
 }
 .intro-content {
-	padding-top: 100px !important;
+	padding-top: 130px !important;
 	display: table-cell;
     padding-top: 80px;
 	text-align: center;
@@ -1208,6 +1208,7 @@ a.menu-toggle {
 
 @media only screen and (max-width:1024px) {
 	.intro-content {
+		padding-top: 120px !important;
 		-webkit-transform: translateY(0);
 		-ms-transform: translateY(0);
 		transform: translateY(0);
@@ -1240,6 +1241,9 @@ a.menu-toggle {
 @media only screen and (max-width:600px) {
 	#intro {
 		min-height: 600px;
+	}
+	.intro-content {
+		padding-top:100px !important;
 	}
 	.intro-content h1 {
     	font-size: 2rem;
